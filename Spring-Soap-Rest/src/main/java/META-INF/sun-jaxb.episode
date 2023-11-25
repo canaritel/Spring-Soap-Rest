@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.11.25 a las 01:41:51 PM WET 
+
+  -->
+      
+    <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="es.televoip.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:Add">
+                  
+            <class ref="es.televoip.wsdl.Add"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:AddResponse">
+                  
+            <class ref="es.televoip.wsdl.AddResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Subtract">
+                  
+            <class ref="es.televoip.wsdl.Subtract"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:SubtractResponse">
+                  
+            <class ref="es.televoip.wsdl.SubtractResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Multiply">
+                  
+            <class ref="es.televoip.wsdl.Multiply"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:MultiplyResponse">
+                  
+            <class ref="es.televoip.wsdl.MultiplyResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:Divide">
+                  
+            <class ref="es.televoip.wsdl.Divide"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:DivideResponse">
+                  
+            <class ref="es.televoip.wsdl.DivideResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
