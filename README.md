@@ -3,5 +3,6 @@
 
 Spring Boot 2.7.18 y Java 11
 
-* El consumo de la API SOAP se realiza por URL
-* Creamos una API REST 
+* Consumimos servicios web SOAP utilizando Spring Boot
+* Creamos un cliente para un servicio web SOAP
+* Integramos en la aplicación
